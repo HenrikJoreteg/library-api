@@ -1,0 +1,18 @@
+{
+  "db": {
+    "client": "postgres",
+    "connection": "$DATABASE_URL",
+    "pool": {
+      "min": 2,
+      "max": 10
+    },
+    "migrations": {
+      "tableName": "knex_migrations"
+    }
+  },
+  "twitter": {
+    "clientId": "$TWITTER_CLIENT_ID",
+    "clientSecret": "$TWITTER_CLIENT_SECRET"
+  },
+  "cookiePassword": "$COOKIE_PASSWORD"
+}

@@ -1,0 +1,13 @@
+{
+  "db": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "./dev.sqlite3"
+    }
+  },
+  "cookiePassword": "ooogah-booogah!",
+  "twitter": {
+  	"clientId": "something",
+  	"clientSecret": "something else"
+  }
+}
