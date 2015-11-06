@@ -1,7 +1,7 @@
 {
   "name": "library-api",
   "description": "Library API",
-  "version": "0.38.0",
+  "version": "0.39.0",
   "author": "Henrik Joreteg <henrik@joreteg.com>",
   "dependencies": {
     "babel": "^5.8.23",
