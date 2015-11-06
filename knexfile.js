@@ -4,7 +4,7 @@
 // and reference the `db` entry for each one. We do this because
 // when you use the knex CLI and pass a `NODE_ENV` environment
 // variable it expects a corresponding key to exist.
-var environmentAwareDbConfig = require('./config').db;
+var environmentAwareDbConfig = require('./config').db
 
 module.exports = {
   development: environmentAwareDbConfig,
