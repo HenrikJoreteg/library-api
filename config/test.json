@@ -4,5 +4,10 @@
     "connection": {
       "filename": "./test.sqlite3"
     }
+  },
+  "cookiePassword": "ooogah-booogah!",
+  "twitter": {
+    "clientId": "something",
+    "clientSecret": "something else"
   }
 }

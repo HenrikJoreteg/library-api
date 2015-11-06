@@ -2,7 +2,7 @@
 // logical defaults and simplified checks for looking
 // for things like pagination, etc.
 import assert from 'assert'
-import server from '../index'
+import server from '../server'
 import Joi from 'joi'
 import { pagination as paginationSchema } from '../data/validation'
 

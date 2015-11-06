@@ -7,9 +7,6 @@ exports.seed = function (knex, Promise) {
       return knex('users').del().insert(data.users)
     })
     .then(function () {
-      return knex('librarians').del().insert(data.librarians)
-    })
-    .then(function () {
       return knex('authors').del().insert(data.authors)
     })
     .then(function () {

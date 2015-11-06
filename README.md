@@ -18,10 +18,6 @@ The API is set up to generate its own documentation based on metadata provided w
 
 You can see the list of routes by running the server as described above and visiting: `/docs` in a browser. 
 
-## Linting setup
-
-Currently using [Walmart's eslint config for ES6-node](https://github.com/walmartlabs/eslint-config-defaults) with only a few tweaks as can be seen in `.eslintrc` there are some modifications in the `data` folder to allow for `snake_case` key names for API output.
-
 ## How configs are handled
 
 Any time you need access to config items within code simply require the `/.config.js` file at the project root.

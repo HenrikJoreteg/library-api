@@ -7,7 +7,7 @@
   },
   "cookiePassword": "ooogah-booogah!",
   "twitter": {
-  	"clientId": "something",
-  	"clientSecret": "something else"
+    "clientId": "something",
+    "clientSecret": "something else"
   }
 }
